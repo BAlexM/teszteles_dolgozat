@@ -1,6 +1,6 @@
 const numberInput = document.getElementById('numberInput')
 const numberList = document.getElementById('numberList')
-numbers = [];
+let numbers = [];
 
 function addNumber() {
     const inputValue = numberInput.inputValue;
@@ -15,6 +15,13 @@ function addNumber() {
         numberList.innerHTML = listItems.join('');
         alert(`Számok: ${numbers.join(', ')}`)
         
+
+    }
+
+    function findMinumum(){
+        const minimum = Math.min(...numbers);
+        alert(`Minimum: ${minimum}`);
+
 
     }
 
