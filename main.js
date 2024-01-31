@@ -18,9 +18,9 @@ function addNumber() {
 
     }
 
-    function findMinumum(){
-        const minimum = Math.min(...numbers);
-        alert(`Minimum: ${minimum}`);
+    function findMaximum(){
+        const maximum = Math.max(...numbers);
+        alert(`Maximum: ${maximum}`);
 
 
     }
